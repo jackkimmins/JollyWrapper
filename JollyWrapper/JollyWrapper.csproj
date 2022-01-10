@@ -9,9 +9,10 @@
     <PackageIconUrl />
     <Description>A simple asynchronous wrapper around the MySql.Data library.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.2</Version>
-    <AssemblyVersion>1.0.0.2</AssemblyVersion>
-    <FileVersion>1.0.1.2</FileVersion>
+    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.0.4</AssemblyVersion>
+    <FileVersion>1.0.1.4</FileVersion>
+    <PackageReleaseNotes>Added a direct cell selector for QueryData.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -21,6 +21,12 @@ namespace JollyWrapper
             _rows.AddRange(hrefs);
         }
 
+        //Returns the selected cell value.
+        public object GetCell(int row, string columnName)
+        {
+            return _rows[row][columnName];
+        }
+
         public IEnumerator<Dictionary<string, string>> GetEnumerator()
         {
             return _rows.GetEnumerator();
