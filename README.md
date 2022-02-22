@@ -1,6 +1,16 @@
 # JollyWrapper
 An asynchronous wrapper around the C# MySql.Data library.
 
+## How to use the JollyWrapper?
+JollyWrapper is avaliable on NuGet and can be used in any .NET Core project.
+
+[NuGet Package](https://www.nuget.org/packages/JollyWrapper/)
+
+```
+dotnet add package JollyWrapper
+Install-Package JollyWrapper
+```
+
 # Examples
 ## Database Connection
 ```csharp
