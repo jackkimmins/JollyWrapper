@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using MySql.Data.MySqlClient;
-using System.Linq;
 
 namespace JollyWrapper
 {
