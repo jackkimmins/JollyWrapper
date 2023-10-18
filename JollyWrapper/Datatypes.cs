@@ -22,6 +22,11 @@ namespace JollyWrapper
             _rows.AddRange(hrefs);
         }
 
+        public Dictionary<string, string> this[int index]
+        {
+            get => _rows[index];
+        }
+
         public IEnumerator<Dictionary<string, string>> GetEnumerator()
         {
             return _rows.GetEnumerator();
